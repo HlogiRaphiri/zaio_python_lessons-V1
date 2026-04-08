@@ -77,7 +77,12 @@ print("question 20:", nothing)
 # --- Level 3: Basic Math with Variables ---
 
 # 21. Create 'length = 10' and 'width = 5'. Calculate 'area' in a new variable.
+length = 10
+width = 5
+area = (length * width)
+print("question 21:",area)
 # 22. Create 'count = 0'. Increment it by 1 using the += operator.
+
 # 23. Calculate the remainder of 10 / 3 using the modulo operator (%).
 # 24. Create 'base = 2' and 'exponent = 3'. Calculate 2 to the power of 3.
 # 25. Find the average of three variables: test1, test2, and test3.
