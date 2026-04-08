@@ -4,11 +4,21 @@
 # --- Level 1: The Basics (Naming & Assignment) ---
 
 # 1. Create a variable named 'city' and assign it the name of your hometown.
+city = "Winchester hills"
+print("question 1:", city)
 # 2. Create a variable 'age' and set it to your age.
+age = 35
+print("question 2: age")
 # 3. Assign the value 100 to a variable called 'score'.
+score = 100
+print("question 2: score")
 # 4. Create a variable 'is_sunny' and set it to True.
+is_sunny = True
+print("question 4: is_sunny")
 # 5. Reassign the 'score' variable from task 3 to a new value: 150.
+score = 150
 # 6. Create two variables, 'x' and 'y', and assign them both the value 5 on a single line.
+x = y = 5
 # 7. Rename the illegal variable '2_cool' to something valid.
 # 8. Create a variable using snake_case (e.g., user_favorite_color).
 # 9. Swap the values of two variables, a = 10 and b = 20, so a is 20 and b is 10.
