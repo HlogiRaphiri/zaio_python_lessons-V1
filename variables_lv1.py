@@ -5,8 +5,6 @@
 
 # 1. Create a variable named 'city' and assign it the name of your hometown.
 
-
-
 city = "Winchester hills"
 print("question 1:", city)
 # 2. Create a variable 'age' and set it to your age.
@@ -30,7 +28,7 @@ cool_2 = "too cool"
 print("question 7:",cool_2)
 # 8. Create a variable using snake_case (e.g., user_favorite_color).
 User_fullname = "Lehlogonolo"
-print("question 8:", User_fullname)
+print("question 8:", User_fullname[-3:])
 # 9. Swap the values of two variables, a = 10 and b = 20, so a is 20 and b is 10.
 a = 10
 b = 20
@@ -82,12 +80,49 @@ width = 5
 area = (length * width)
 print("question 21:",area)
 # 22. Create 'count = 0'. Increment it by 1 using the += operator.
-
+count = 0
+print("question 22:",count +1)
 # 23. Calculate the remainder of 10 / 3 using the modulo operator (%).
+remainder = 10 % 3
+print(remainder)  
 # 24. Create 'base = 2' and 'exponent = 3'. Calculate 2 to the power of 3.
+base = 2
+exponent =3
+power = base ** exponent
+print(power)
 # 25. Find the average of three variables: test1, test2, and test3.
-# 26. Create 'price = 50'. Calculate a 10% discount and store the final price.
+test1 = 85.0
+test2 = 90.0
+test3 = 78.5
+average = (test1 + test2 + test3) / 3
+print(f"The average test score is: {average}")
+
+test1 = 85.0
+test2 = 90.0
+test3 = 78.5
+average = (test1 + test2 + test3) / 3
+print(f"The average test score is: {average:.2f}")
+
 # 27. Convert a 'fahrenheit' variable to 'celsius' using: (F - 32) * 5/9.
+fahrenheit = 98.6
+celsius = (fahrenheit - 32) * 5/9
+print(celsius)
+
 # 28. Create 'seconds = 3660'. Convert this into minutes and remaining seconds.
+seconds = 3660
+minutes = seconds // 60
+remaining_seconds = seconds % 60
+print(f"{minutes} minutes and {remaining_seconds} seconds")
+
 # 29. Use a variable to store the result of 10 // 3 (floor division).
+result = 10 // 3
+print(result)
 # 30. Create a 'wallet' variable with 100. Subtract three 'purchase' variables from it.
+
+wallet = 100
+
+purchase1 = 15
+purchase2 = 20.50
+purchase3 = 10
+wallet -= (purchase1 + purchase2 + purchase3)
+print(wallet) 
